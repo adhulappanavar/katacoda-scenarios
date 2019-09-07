@@ -1,0 +1,1 @@
+Congratulations, you have learned how to create a microservice application using Jhipster
