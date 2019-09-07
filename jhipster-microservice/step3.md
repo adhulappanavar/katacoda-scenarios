@@ -4,4 +4,3 @@ Install JHipster
 
 `npm install -g yo@latest`{{execute}}
 
-
