@@ -17,3 +17,7 @@ Start Blob in Terminal 4
 `cd /root/blog`{{execute T4}}
 `export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64/`{{execute T4}}
 `./mvnw`{{execute T4}}
+
+## Generated Web Link
+
+https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
