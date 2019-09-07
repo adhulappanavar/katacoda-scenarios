@@ -5,9 +5,8 @@ Download the Domain Model
 Generate the source code from Domain Model
 `jhipster import-jdl microservices-blog-store.jh`{{execute}}
 
-
-
-
-
-
+Three new directories are created
+    - gateway
+    - store
+    - blog
 
