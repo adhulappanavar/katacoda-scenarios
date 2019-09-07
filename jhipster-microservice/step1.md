@@ -10,4 +10,10 @@ Install Open JDK 8
 
 `sudo apt-get install openjdk-8-jdk`{{execute}}
 
+Check Java Version
+
+`java -version`{{execute}}
+
+`javac -version`{{execute}}
+
 
