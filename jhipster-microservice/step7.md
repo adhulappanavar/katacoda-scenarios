@@ -13,7 +13,7 @@ Start Store in Terminal 3
 `echo Welcome to Terminal 3`{{execute T3}}
 `cd /root/store`{{execute T3}}
 `pwd`{{execute T3}}
-`echo Ensure that you are in directory /root/root`{{execute T3}}
+`echo Ensure that you are in directory /root/store`{{execute T3}}
 `export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64/`{{execute T3}}
 `./mvnw`{{execute T3}}
 
