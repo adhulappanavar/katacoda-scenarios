@@ -9,10 +9,10 @@ Download the Domain Model
 
 Visualize the domain model -1 
 <pre>
-![Katacoda Logo](/adhulappanavar/katacoda-scenarios/blob/master/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
+![Katacoda Logo](/adhulappanavar/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
 </pre>
 
-![Katacoda Logo](/adhulappanavar/katacoda-scenarios/blob/master/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
+![Katacoda Logo](/adhulappanavar/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
 
 
 
