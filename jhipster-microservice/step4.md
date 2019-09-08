@@ -8,6 +8,8 @@ Visualize the domain model
 
 ![BookInfo Architecture](https://katacoda.com/courses/istio/deploy-istio-on-kubernetes/assets/bookinfo-arch.png)
 
+![BookInfo Architecture](https://github.com/adhulappanavar/katacoda-scenarios/tree/master/jhipster-microservice/assests/DomianArchitectureUsingJHStudio.png)
+
 Generate the source code from Domain Model
 `jhipster import-jdl microservices-blog-store.jh`{{execute}}
 
