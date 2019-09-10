@@ -9,7 +9,7 @@ Build and Dockerize Gateway  in Terminal 2
 
 `pwd`{{execute T2}}
 
-`export  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/`
+`export  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/`{{execute T2}}
 
 `./mvnw package -Pprod verify jib:dockerBuild`{{execute T2}}
 
