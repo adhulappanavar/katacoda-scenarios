@@ -1,7 +1,10 @@
 Download the Domain Model
 
-`curl -L -O //raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog-store.jh`{{execute}}
+Original Domain file which uses oauth2 authentication type is at 
+https://raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog-store.jh
 
+
+The modified Domain file which uses JWT is at
 `curl -L -O https://raw.githubusercontent.com/adhulappanavar/katacoda-scenarios/master/jhipster-microservice/assets/microservices-blog-store.jh`{{execute}}
 
 
