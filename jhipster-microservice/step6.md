@@ -11,7 +11,6 @@ Build and Dockerize Blob in Terminal 2
 
 `docker-compose up`{{execute T2}}
 
-
 `docker container stats $(docker container ps --format={{.Names}})`{{execute T2}}
 
 
