@@ -1,6 +1,8 @@
 Download the Domain Model
 
-`curl -L -O https://raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog-store.jh`{{execute}}
+`curl -L -O //raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog-store.jh`{{execute}}
+
+`curl -L -O https://raw.githubusercontent.com/adhulappanavar/katacoda-scenarios/master/jhipster-microservice/assets/microservices-blog-store.jh`{{execute}}
 
 
 Visualize the domain model -1 
