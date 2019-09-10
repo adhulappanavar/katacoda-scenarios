@@ -1,6 +1,10 @@
-Store 
+Create a Docker Compose file for the entire app
 
-`cd /root/store`{{execute}}
+Build and Dockerize Blob in Terminal 2
+`cd /root`{{execute T2}}
 
-Start MongoDB
-`docker-compose -f src/main/docker/mongodb.yml up -d`{{execute}}
+`mkdir docker-compose`{{execute T2}}
+
+`jhipster docker-compose`{{execute T2}}
+
+`docker-compose up`{{execute T2}}

@@ -12,8 +12,6 @@ Install Open JDK 11
 
 `sudo apt-get update -q`{{execute}}
 
-`sudo apt install -y openjdk-11-jdk`{{execute}}
-
 
 Check Java Version
 
