@@ -1,4 +1,4 @@
-Compile the Java Microservice and Start the Microservices
+Compile the Java Microservice and package the Microservice in containers
 
 
 Build and Dockerize Gateway  in Terminal 2
