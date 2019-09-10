@@ -14,6 +14,13 @@ Check Java Version
 
 Default is Java 8 which is good enough. Feel free to skip the below steps
 
+Check Java Version
+
+`java -version`{{execute}}
+
+`javac -version`{{execute}}
+
+-----------------------------------------
 Incase you want to install  Open JDK 11
 
 `sudo add-apt-repository ppa:openjdk-r/ppa`{{execute}}
