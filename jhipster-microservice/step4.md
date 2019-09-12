@@ -1,28 +1,35 @@
-Download the Domain Model
-
-Original Domain file which uses oauth2 authentication type is at 
-https://raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog-store.jh
+Compile the Java Microservice and package the Microservice in containers
 
 
-The modified Domain file which uses JWT is at
-`curl -L -O https://raw.githubusercontent.com/adhulappanavar/katacoda-scenarios/master/jhipster-microservice/assets/microservices-blog-store.jh`{{execute}}
+Build and Dockerize Gateway  in Terminal 2
+
+`echo Welcome to Terminal 2`{{execute T2}}
+
+`cd /root/gateway`{{execute T2}}
+
+`pwd`{{execute T2}}
+
+`export  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/`{{execute T2}}
+
+`./mvnw package -Pprod verify jib:dockerBuild | gnomon`{{execute T2}}
+Have patience this will take 6-8 minutes
 
 
-Visualize the domain model -1 
-<pre>
-![Domain Architeture](/adhulappanavar/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
-</pre>
+Build and Dockerize Store in Terminal 2
 
-![Domain Architeture](/adhulappanavar/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
+`cd /root/store`{{execute T2}}
+
+`pwd`{{execute T2}}
+
+`./mvnw package -Pprod verify jib:dockerBuild | gnomon`{{execute T2}}
+This will take about 1-2 min
 
 
-Generate the source code from Domain Model
-`jhipster import-jdl microservices-blog-store.jh`{{execute}}
+Build and Dockerize Blob in Terminal 2
 
-You may have to press enter few times for process to continue ....
+`cd /root/blog`{{execute T2}}
 
-Three new directories are created
-    - gateway
-    - store
-    - blog
+`pwd`{{execute T2}}
 
+`./mvnw package -Pprod verify jib:dockerBuild | gnomon`{{execute T2}}
+This will take about 1-2 min

@@ -32,6 +32,14 @@
       {
         "title": "Step 7",
         "text": "step7.md"
+      },
+      {
+        "title": "Install Java",
+        "text": "installJava.md"
+      },
+      {
+        "title": "Install Node",
+        "text": "installNode.md"
       }
     ],
     "intro": {

@@ -1,22 +1,6 @@
+Install JHipster
 
-Default is Java 8 which is good enough. Feel free to skip the below steps
+`npm install -g generator-jhipster | gnomon`{{execute}}
 
-Check Node and NPM Version
+`npm install -g yo@latest | gnomon`{{execute}}
 
-`node -v`{{execute}}
-
-`npm -v`{{execute}}
-
-
------------------------------------------
-Install Nodejs
-
-`curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`{{execute}}
-
-`sudo apt-get install -y nodejs`{{execute}}
-
-Check Node and NPM Version
-
-`node -v`{{execute}}
-
-`npm -v`{{execute}}

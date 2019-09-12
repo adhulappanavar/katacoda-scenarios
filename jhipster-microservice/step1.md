@@ -1,8 +1,4 @@
-Update apt-get
-
-## Update apt-get
-
-Update apt-get using sudo apt-get update **command**
+On Katacoda - Check the Java, Node and Docker
 
 Check Java Version
 
@@ -10,27 +6,24 @@ Check Java Version
 
 `javac -version`{{execute}}
 
+Default is Java 8 which is good enough
+
+Check Node and NPM Version
+
+`node -v`{{execute}}
+
+`npm -v`{{execute}}
+
+Check Docker version
+
+In case you are working on a different machine and need to install Java and Node
+please follwow the instructions in sections InstallJava and InstallNode steps
 
 
-Default is Java 8 which is good enough. Feel free to skip the below steps
+Some of the code generation scripts can take 3-10 minutes
+Install an utility to measure the time taken by each command 
+https://github.com/paypal/gnomon 
 
-Check Java Version
+`npm install -g gnomon`{{execute}}
 
-`java -version`{{execute}}
-
-`javac -version`{{execute}}
-
------------------------------------------
-Incase you want to install  Open JDK 11
-
-`sudo add-apt-repository ppa:openjdk-r/ppa`{{execute}}
-
-`sudo apt-get update -q`{{execute}}
-
-`sudo apt install -y openjdk-11-jdk`{{execute}}
-
-Check Java Version
-
-`java -version`{{execute}}
-
-`javac -version`{{execute}}
+Note : on Mac you may have to use sudo to install npm modules globally
