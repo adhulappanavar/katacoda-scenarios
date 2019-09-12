@@ -17,7 +17,7 @@ Visualize the domain model -1
 
 
 Generate the source code from Domain Model
-`jhipster import-jdl microservices-blog-store.jh`{{execute}}
+`jhipster import-jdl microservices-blog-store.jh | gnomon`{{execute}}
 
 You may have to press enter few times for process to continue ....
 
