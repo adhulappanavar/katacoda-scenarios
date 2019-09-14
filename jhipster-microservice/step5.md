@@ -1,7 +1,7 @@
 Create a Docker Compose file for the entire app
 
 Build and Dockerize Blob in Terminal 2
-`cd /root`{{execute T2}}
+`cd /root/microblog`{{execute T2}}
 
 `mkdir docker-compose`{{execute T2}}
 

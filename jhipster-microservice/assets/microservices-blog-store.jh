@@ -21,7 +21,7 @@ application {
 application {
   config {
     baseName blog,
-    packageName com.okta.developer.blog,
+    packageName com.sapient.developer.blog,
     applicationType microservice,
     authenticationType jwt,
     prodDatabaseType postgresql,

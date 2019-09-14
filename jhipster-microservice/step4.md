@@ -4,7 +4,7 @@ Build and Dockerize Gateway, Blog and Store  in Terminal 2
 
 `echo Welcome to Terminal 2`{{execute T2}}
 
-`cd /root`{{execute T2}}
+`cd /root/microblog`{{execute T2}}
 
 `pwd`{{execute T2}}
 
