@@ -5,7 +5,7 @@ Build and Dockerize Blob in Terminal 2
 
 `mkdir docker-compose`{{execute T2}}
 
-`cd  /root/docker-compose`{{execute T2}}
+`cd  /root/microblog/docker-compose`{{execute T2}}
 
 `jhipster docker-compose`{{execute T2}}
 
