@@ -80,3 +80,11 @@ paginate Product with pagination
 
 microservice Product with store
 microservice Blog, Post, Tag with blog
+
+// will be created under 'docker-compose' folder
+deployment {
+  deploymentType docker-compose
+  appsFolders [gateway, blog, store]
+  dockerRepositoryName "adhulappanavar"
+  consoleOptions [zipkin]
+}

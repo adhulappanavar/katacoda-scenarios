@@ -7,6 +7,9 @@ https://raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog
 The modified Domain file which uses JWT is at
 `curl -L -O https://raw.githubusercontent.com/adhulappanavar/katacoda-scenarios/master/jhipster-microservice/assets/microservices-blog-store.jh`{{execute}}
 
+Download the POM file to build all the microservices in one command
+`curl -L -O https://raw.githubusercontent.com/adhulappanavar/katacoda-scenarios/master/jhipster-microservice/assets/pom.xml`{{execute}}
+
 
 Visualize the domain model -1 
 <pre>
