@@ -47,3 +47,11 @@ In this scenario, within the Assets directory, a `logo-text-with-head.png` file 
 ![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/logo-text-with-head.png)
 
 While relative paths can work, for most browser support we recommend using the absolute path.
+
+<pre>
+![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
+</pre>
+
+![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
+
+While relative paths can work, for most browser support we recommend using the absolute path.
