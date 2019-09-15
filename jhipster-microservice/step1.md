@@ -35,23 +35,3 @@ https://github.com/paypal/gnomon
 `npm install -g gnomon`{{execute}}
 
 Note : on Mac you may have to use sudo to install npm modules globally
-
-Within the Assets directory, images can be embedded into the scenarios.
-
-In this scenario, within the Assets directory, a `logo-text-with-head.png` file exists. Only images within the Assets directory are available.
-
-<pre>
-![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/logo-text-with-head.png)
-</pre>
-
-![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/logo-text-with-head.png)
-
-While relative paths can work, for most browser support we recommend using the absolute path.
-
-<pre>
-![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
-</pre>
-
-![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
-
-While relative paths can work, for most browser support we recommend using the absolute path.

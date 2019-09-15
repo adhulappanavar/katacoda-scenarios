@@ -14,9 +14,6 @@ Download the POM file to build all the microservices in one command
 
 
 Visualize the domain model -1 
-<pre>
-![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
-</pre>
 
 ![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
 
