@@ -15,11 +15,10 @@ Download the POM file to build all the microservices in one command
 
 Visualize the domain model -1 
 <pre>
-![Domain Architeture](/adhulappanavar/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
+![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
 </pre>
 
-![Domain Architeture](/adhulappanavar/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
-
+![Katacoda Logo](/anildhulappanavar/scenarios/jhipster-microservice/assets/DomianArchitectureUsingJHStudio.png)
 
 Generate the source code from Domain Model
 `jhipster import-jdl microservices-blog-store.jh`{{execute}}
