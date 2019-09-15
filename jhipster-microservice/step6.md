@@ -12,3 +12,6 @@ Stop and remove all Docker containers
 
 Remove all Docker Images
 `docker rmi $(docker images -a -q)`
+
+Checking Docker container logs
+`docker container logs --tail 1 3f840a82aabe`
