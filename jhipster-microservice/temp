@@ -1,0 +1,13 @@
+int main()
+
+{int-a,b,c,l,sl,s
+  l=a
+  { if (b>l)
+    l=b}
+    {if(c>l)
+     l=c}
+     getch ()
+    
+
+    return 0;
+}
