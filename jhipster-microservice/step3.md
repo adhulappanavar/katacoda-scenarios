@@ -28,3 +28,6 @@ Four new directories are created
     - blog
     - docker-compose
 
+
+More JDL files can be found at https://github.com/jhipster/jdl-samples
+

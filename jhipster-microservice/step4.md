@@ -8,9 +8,16 @@ Build and Dockerize Gateway, Blog and Store  in Terminal 2
 
 `pwd`{{execute T2}}
 
-`export  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/`{{execute T2}}
+`export  JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64/`{{execute T2}}
 
-`mvn -Pprod verify com.google.cloud.tools:jib-maven-plugin:dockerBuild`{{execute T2}}
-./mvnw package -Pprod verify jib:dockerBuild
+
+
+
+`./mvnw -DskipTests package -Pprod verify jib:dockerBuild`{execute T2}}
 
 Have patience this will take 5-10 minutes
+
+
+
+mvn -Pprod verify com.google.cloud.tools:jib-maven-plugin:dockerBuild
+./mvnw -DskipTests package
