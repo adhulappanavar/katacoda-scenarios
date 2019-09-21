@@ -216,7 +216,7 @@ microservice MeetingRoom, Meeting, Participant with meeting
 deployment {
   deploymentType kubernetes
   appsFolders [ui, organization, leave, meeting, notification]
-  dockerRepositoryName "adhulappanvar"
+  dockerRepositoryName "adhulappanavar"
   serviceDiscoveryType no
   istio true
   kubernetesServiceType Ingress
