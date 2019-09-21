@@ -3,6 +3,8 @@ Download the Domain Model
 Original Domain file which uses oauth2 authentication type is at 
 https://raw.githubusercontent.com/jhipster/jdl-samples/master/microservices-blog-store.jh
 
+https://github.com/oktadeveloper/jhipster-microservices-example/blob/master/TUTORIAL.md
+
 Create a empty working directory
 `mkdir microblog && cd microblog`{{execute}}
 

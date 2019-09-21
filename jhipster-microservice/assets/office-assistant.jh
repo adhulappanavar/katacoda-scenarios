@@ -25,7 +25,7 @@ application {
     baseName organization
     applicationType microservice
     packageName ro.trc.office.organization
-    serviceDiscoveryType no
+    serviceDiscoveryType eureka
     authenticationType jwt
     prodDatabaseType mysql
     cacheProvider hazelcast
@@ -40,7 +40,7 @@ application {
     baseName leave
     applicationType microservice
     packageName ro.trc.office.leave
-    serviceDiscoveryType no
+    serviceDiscoveryType eureka
     authenticationType jwt
     databaseType mongodb
     cacheProvider no
@@ -56,7 +56,7 @@ application {
     baseName notification
     applicationType microservice
     packageName ro.trc.office.notification
-    serviceDiscoveryType no
+    serviceDiscoveryType eureka
     authenticationType jwt
     databaseType mongodb
     cacheProvider no
@@ -72,7 +72,7 @@ application {
     baseName meeting
     applicationType microservice
     packageName ro.trc.office.meeting
-    serviceDiscoveryType no
+    serviceDiscoveryType eureka
     authenticationType jwt
     databaseType mongodb
     cacheProvider no
@@ -217,9 +217,18 @@ deployment {
   deploymentType kubernetes
   appsFolders [ui, organization, leave, meeting, notification]
   dockerRepositoryName "adhulappanavar"
-  serviceDiscoveryType no
-  istio true
+  serviceDiscoveryType eureka
+  istio false
   kubernetesServiceType Ingress
   kubernetesNamespace office
   ingressDomain "172.17.0.10.nip.io"
+}
+
+deployment {
+  deploymentType docker-compose
+  directoryPath: ../
+  appsFolders [ui, organization, leave, meeting, notification]
+  dockerRepositoryName "adhulappanavar"
+  serviceDiscoveryType eureka
+  gatewayType: zuul
 }
