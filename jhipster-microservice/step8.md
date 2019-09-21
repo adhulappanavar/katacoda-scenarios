@@ -74,3 +74,7 @@ gcloud container clusters get-credentials jhipster-jwt-cluster --zone europe-wes
 gcloud container clusters get-credentials jhipster-jwt-cluster --zone europe-west2-b --project internal-investment-206615
 kubectl get pod --selector="app=blog" --output jsonpath='{.items[0].metadata.name}'
 kubectl port-forward blog-6cb794b54d-twxs4 8080:8081
+
+
+kubectl config current-context
+gcloud container clusters get-credentials [CLUSTER_NAME]

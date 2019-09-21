@@ -7,7 +7,7 @@ application {
     baseName ui
     applicationType gateway
     packageName ro.trc.office.ui
-    serviceDiscoveryType no
+    serviceDiscoveryType eureka,
     authenticationType jwt
     databaseType mongodb
     cacheProvider no
