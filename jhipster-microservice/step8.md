@@ -78,3 +78,10 @@ kubectl port-forward blog-6cb794b54d-twxs4 8080:8081
 
 kubectl config current-context
 gcloud container clusters get-credentials [CLUSTER_NAME]
+
+
+iterm has issues after running jhipster import-jdl command
+to resolve it tye stty sane ( even though you may ot see the command)
+post that it will work normally
+
+https://askubuntu.com/questions/441744/pressing-enter-produces-m-instead-of-a-newline

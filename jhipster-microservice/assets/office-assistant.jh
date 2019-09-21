@@ -12,7 +12,7 @@ application {
     databaseType mongodb
     cacheProvider no
     enableHibernateCache false
-    buildTool gradle
+    buildTool maven
     useSass true 
     testFrameworks [protractor]
   }
@@ -29,7 +29,7 @@ application {
     authenticationType jwt
     prodDatabaseType mysql
     cacheProvider hazelcast
-    buildTool gradle
+    buildTool maven
     serverPort 8081
   }
   entities Department, Employee
@@ -45,7 +45,7 @@ application {
     databaseType mongodb
     cacheProvider no
     enableHibernateCache false
-    buildTool gradle
+    buildTool maven
     serverPort 8082
   }
   entities EmployeeLeave, LeaveRequest
@@ -61,7 +61,7 @@ application {
     databaseType mongodb
     cacheProvider no
     enableHibernateCache false
-    buildTool gradle
+    buildTool maven
     serverPort 8083
   }
   entities Notification
@@ -77,7 +77,7 @@ application {
     databaseType mongodb
     cacheProvider no
     enableHibernateCache false
-    buildTool gradle
+    buildTool maven
     serverPort 8084
   }
   entities MeetingRoom, Meeting, Participant
@@ -216,7 +216,7 @@ microservice MeetingRoom, Meeting, Participant with meeting
 deployment {
   deploymentType kubernetes
   appsFolders [ui, organization, leave, meeting, notification]
-  dockerRepositoryName "razvansimiontrencadis"
+  dockerRepositoryName "adhulappanvar"
   serviceDiscoveryType no
   istio true
   kubernetesServiceType Ingress
