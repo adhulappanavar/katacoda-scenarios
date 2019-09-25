@@ -27,7 +27,8 @@ application {
     prodDatabaseType postgresql,
     searchEngine elasticsearch,
     serverPort 8081,
-    serviceDiscoveryType eureka
+    serviceDiscoveryType eureka,
+    testFrameworks [gatling]
   }
   entities Blog, Post, Tag
 }
@@ -41,7 +42,8 @@ application {
     enableHibernateCache false,
     searchEngine elasticsearch,
     serverPort 8082,
-    serviceDiscoveryType eureka
+    serviceDiscoveryType eureka,
+    testFrameworks [gatling]
   }
   entities Product
 }

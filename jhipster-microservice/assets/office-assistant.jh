@@ -205,30 +205,3 @@ relationship ManyToMany {
 service MeetingRoom, Meeting, Participant  with serviceClass
 paginate MeetingRoom, Meeting, Participant with pagination
 microservice MeetingRoom, Meeting, Participant with meeting
-
-
-/**
- * DEPLOYMENT
- * replace ingress domain with external ip
- * kubectl get services -n istio-system | grep ingress
- */
-
-deployment {
-  deploymentType kubernetes
-  appsFolders [ui, organization, leave, meeting, notification]
-  dockerRepositoryName "adhulappanavar"
-  serviceDiscoveryType eureka
-  istio false
-  kubernetesServiceType Ingress
-  kubernetesNamespace office
-  ingressDomain "172.17.0.10.nip.io"
-}
-
-deployment {
-  deploymentType docker-compose
-  directoryPath: ../
-  appsFolders [ui, organization, leave, meeting, notification]
-  dockerRepositoryName "adhulappanavar"
-  serviceDiscoveryType eureka
-  gatewayType: zuul
-}

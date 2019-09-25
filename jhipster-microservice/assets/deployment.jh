@@ -1,0 +1,70 @@
+
+
+deployment {
+  deploymentType kubernetes
+  appsFolders [ui, organization, leave, meeting, notification]
+  dockerRepositoryName "adhulappanavar"
+  serviceDiscoveryType eureka
+  istio false
+  kubernetesServiceType Ingress
+  kubernetesNamespace office
+  ingressDomain "172.17.0.10.nip.io"
+}
+
+deployment {
+  deploymentType docker-compose
+  directoryPath: ../
+  appsFolders [ui, organization, leave, meeting, notification]
+  dockerRepositoryName "adhulappanavar"
+  serviceDiscoveryType eureka
+  gatewayType: zuul
+}
+
+/*******
+*** Office Assistant Docker Compose .yo-rc.json
+****/
+
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "leave",
+      "meeting",
+      "notification",
+      "organization",
+      "ui"
+    ],
+    "directoryPath": "../",
+    "gatewayType": "zuul",
+    "clusteredDbApps": [],
+    "monitoring": "no",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ODk1NjY3NDM5NDcxYTc4NzRmMWVjNjc2MGVlOGQyMjUzMjkyYzRjMWFmZDdjMmUzMTk0YjFhZDRlZGE3Y2VmYmI4ZTk4NWIzZTRmMjdiMWJkYjhlMGE0MGFhYjZmMjZkOTRlMA=="
+  }
+}
+
+/*******
+*** Office Assistant Kubernetes .yo-rc.json
+****/
+
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "leave",
+      "meeting",
+      "notification",
+      "organization",
+      "ui"
+    ],
+    "directoryPath": "../",
+    "clusteredDbApps": [],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "NzdlM2YyYzFhYmM3MDdiY2RmNTQzMTk1Y2NjYjcwOGQ5NjQxYWYzMzgzNTI0N2YzMjRhYWI1MjU0ZmFhMzJlM2NkOTcyNmE1NjVhNjZhMDlhNzIwYzAyYzcxYWZmYzcwNWU4OQ==",
+    "dockerRepositoryName": "adhulappanavar",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}
