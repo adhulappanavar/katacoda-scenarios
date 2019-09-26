@@ -14,8 +14,6 @@ Build and Dockerize Gateway, Blog and Store  in Terminal 2
 
 `cd blog && ./mvnw -DskipTests package -Pprod verify jib:dockerBuild && cd ..`{{execute T2}}
 
-`cd blog && ./mvnw -DskipTests package -Pprod verify jib:dockerBuild && cd ..`{{execute T2}}
-
 `cd gateway && ./mvnw -DskipTests package -Pprod verify jib:dockerBuild && cd ..`{{execute T2}}
 
 `cd store && ./mvnw -DskipTests package -Pprod verify jib:dockerBuild && cd ..`{{execute T2}}

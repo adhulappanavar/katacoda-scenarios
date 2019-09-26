@@ -3,12 +3,25 @@
 
 Note : PLease replace xxx with your gmail id and yyy with your billable google cloud account project name
 
+`mkdir /root/gcloudcli`{{execute T3}}
+`cd /root/gcloudcli`{{execute T3}}
+
+
 Install Google Cloud CLI
-`curl -L -O google-cloud-sdk-264.0.0-linux-x86_64.tar.gz`{{execute T3}}
+`curl -L -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-264.0.0-linux-x86_64.tar.gz`{{execute T3}}
 
 `tar -xvf google-cloud-sdk-264.0.0-linux-x86_64.tar.gz`{{execute T3}}
 
-`./google-cloud-sdk/install.sh`{{execute T3}}
+`source /root/.bashrc`{{execute T3}}
+
+Install Kubcetl
+`curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl`
+
+`chmod +x ./kubectl`
+
+`sudo mv ./kubectl /usr/local/bin/kubectl`
+
+
 
 `gcloud init`{{execute T3}}
 
@@ -31,3 +44,4 @@ account = xxxx@gmail.com
 disable_usage_reporting = True
 project = yyy
 `
+
