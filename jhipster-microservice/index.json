@@ -42,6 +42,10 @@
         "text": "step9_GoogleCloud-Cluster.md"
       },
       {
+        "title": "Step 10 - Kubernetes Yaml Files Creation",
+        "text": "step10_KubernetesYamlFilesCreation.md"
+      },
+      {
         "title": "Install Java",
         "text": "installJava.md"
       },
