@@ -6,28 +6,40 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Step 1 - PreRequistes",
+        "text": "step1_Prereq_JavaNodeDocker.md"
       },
       {
         "title": "Step 2",
-        "text": "step2.md"
+        "text": "step2_Install_JhipsterGenerators.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Step 3 - Business Modelling and Code Generation",
+        "text": "step3_BusinessModel_CodeGeneration.md"
       },
       {
-        "title": "Step 4",
-        "text": "step4.md"
+        "title": "Step 4 - Build and Containerize",
+        "text": "step4_Build_Dockerize.md"
       },
       {
-        "title": "Step 5",
-        "text": "step5.md"
+        "title": "Step 5 - Build composite App - Docker Compose",
+        "text": "step5_DockerCompose.md"
       },
       {
-        "title": "Step 6",
-        "text": "step6.md"
+        "title": "Step 6 - Useful Docker Commands",
+        "text": "step6_DockerCommands.md"
+      },
+      {
+        "title": "Step 7 - Performance Testing",
+        "text": "step7_PerformanceTesting.md"
+      },
+      {
+        "title": "Step 8 - Googel Cloud Pre Req",
+        "text": "step8_GoogleCloud-Prereq.md"
+      },
+      {
+        "title": "Step 9 - Googel Cloud Cluster",
+        "text": "step9_GoogleCloud-Cluster.md"
       },
       {
         "title": "Install Java",

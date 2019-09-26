@@ -1,8 +1,4 @@
-## Generated Web Link
 
-It will take about 5 mins for the app to come up
-
-https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com
 
 GATLING TESTING
 
@@ -23,16 +19,3 @@ The simulation files reside in the following directory
 
 Execute the simulation
 `$GATLING_HOME/bin/gatling.sh -sf src/test/gatling`{{execute T2}}
-
-
-
-Stop and remove all Docker containers
-`docker stop $(docker ps -a -q)`
-`docker rm $(docker ps -a -q)`
-
-
-Remove all Docker Images
-`docker rmi $(docker images -a -q)`
-
-Checking Docker container logs
-`docker container logs --tail 1 3f840a82aabe`

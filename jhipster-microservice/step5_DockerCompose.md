@@ -39,7 +39,7 @@ Command to Stop and remove all Docker containers
 `docker rm $(docker ps -a -q)`
 
 
-`docker-compose up -d | gnomon`{{execute T2}}
+`docker-compose up -d`{{execute T2}}
 
 `docker container stats $(docker container ps --format={{.Names}})`{{execute T3}}
 
