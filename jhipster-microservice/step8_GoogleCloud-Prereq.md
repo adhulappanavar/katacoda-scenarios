@@ -12,6 +12,8 @@ Install Google Cloud CLI
 
 `tar -xvf google-cloud-sdk-264.0.0-linux-x86_64.tar.gz`{{execute T3}}
 
+`./google-cloud-sdk/install.sh`{{execute T3}}
+
 `source /root/.bashrc`{{execute T3}}
 
 Install Kubcetl
@@ -24,9 +26,13 @@ Install Kubcetl
 
 `gcloud init`{{execute T3}}
 
-`gcloud config set project yyyy`{{execute T3}}
+Open the web link in a browser
+Login with you google account linked to google cloud billable account
+You will get a code on the browser - copy it and paste it on the Katacoda terminal
 
-`gcloud auth login`{{execute T3}}
+`gcloud config set project yyyy`
+
+`gcloud auth login`
 
 `gcloud config set compute/region europe-west2`{{execute T3}}
 
