@@ -15,22 +15,7 @@ int main()
 
 
       /*,
-      {
-        "title": "Step 2",
-        "text": "step2_Install_JhipsterGenerator.md"
-      },
-      {
-        "title": "Step 3 - Business Modelling and Code Generation",
-        "text": "step3_BusinessModel_CodeGeneration.md"
-      },
-      {
-        "title": "Step 4 - Build and Containerize",
-        "text": "step4_Build_Dockerize.md"
-      },
-      {
-        "title": "Step 5 - Build composite App - Docker Compose",
-        "text": "step5_DockerCompose.md"
-      },
+      
       {
         "title": "Step 6 - Useful Docker Commands",
         "text": "step6_DockerCommands.md"
@@ -50,11 +35,26 @@ int main()
       {
         "title": "Step 10 - Kubernetes Yaml Files Creation",
         "text": "step10_KubernetesYamlFilesCreation.md"
-      },,
+      },,{
+        "title": "Step 2",
+        "text": "step2_Install_JhipsterGenerator.md"
+      },
+      {
+        "title": "Step 3 - Business Modelling and Code Generation",
+        "text": "step3_BusinessModel_CodeGeneration.md"
+      },
+      {
+        "title": "Step 4 - Build and Containerize",
+        "text": "step4_Build_Dockerize.md"
+      },
+      {
+        "title": "Step 5 - Build composite App - Docker Compose",
+        "text": "step5_DockerCompose.md"
+      },
       {
         "title": "Step 11 - Google Cloud Cluster CleanUp -- Save $$$",
         "text": "step11_GoogleCloud-ClusterCleanUp.md"
-      }
+      },
       {
         "title": "Install Java",
         "text": "installJava.md"
