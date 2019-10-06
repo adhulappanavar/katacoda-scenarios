@@ -1,7 +1,7 @@
-This is your first step.
+To start, launch the Kubernetes cluster. This will launch a two-node Kubernetes cluster with one master and one node.
 
-## Task
+`launch.sh`{{execute}}
 
-This is an _example_ of creating a scenario and running a **command**
+#### Health Check
 
-`echo 'Hello World from Anil Dhulappanavar'`{{execute}}
+Once started, you can get the status of the cluster with `kubectl cluster-info`{{execute}}
