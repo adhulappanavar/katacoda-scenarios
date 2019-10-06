@@ -8,7 +8,8 @@
       {
         "title": "Step 1 - PreRequistes",
         "text": "step1_Prereq_JavaNodeDocker.md"
-      },
+      }
+      /*,
       {
         "title": "Step 2",
         "text": "step2_Install_JhipsterGenerator.md"
@@ -56,7 +57,7 @@
       {
         "title": "Install Node",
         "text": "installNode.md"
-      }
+      }*/
     ],
     "intro": {
       "text": "intro.md"

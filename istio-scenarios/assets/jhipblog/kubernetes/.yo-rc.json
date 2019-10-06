@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "gateway",
+      "blog",
+      "store"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": false,
+    "dockerRepositoryName": "adhulappanavar",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "34.89.20.232.nip.io",
+    "istio": true,
+    "jwtSecretKey": "OTg1MTJkNGNmNzI0ZTRlNjZhMzI4YzYxYTEyYzM0ZjU4ZWY0ZTY0MTI4MWM3Nzg5OGE3NWQ3ZDQxZjAyY2Y1ZDk2OTU5MjQ1NDBkMDNjMDM3MWQ1NjM3MWE4MjI0ZjQwYWM5Nw=="
+  }
+}
