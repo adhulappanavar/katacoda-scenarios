@@ -44,7 +44,11 @@
       {
         "title": "Step 10 - Kubernetes Yaml Files Creation",
         "text": "step10_KubernetesYamlFilesCreation.md"
-      },
+      },,
+      {
+        "title": "Step 11 - Google Cloud Cluster CleanUp -- Save $$$",
+        "text": "step11_GoogleCloud-ClusterCleanUp.md"
+      }
       {
         "title": "Install Java",
         "text": "installJava.md"
@@ -68,3 +72,4 @@
     "imageid": "ubuntu"
   }
 }
+

@@ -221,7 +221,7 @@ microservice Notification with notification
 deployment {
   deploymentType kubernetes
   appsFolders [store, invoice, notification, product]
-  dockerRepositoryName "deepu105"
+  dockerRepositoryName "adhulappanavar"
   serviceDiscoveryType no
   istio true
   kubernetesServiceType Ingress
