@@ -6,6 +6,8 @@ To start, launch the Kubernetes cluster. This will launch a two-node Kubernetes 
 
 Once started, you can get the status of the cluster with `kubectl cluster-info`{{execute}}
 
+#### Tools Check
+
 1. Java 
 `java -version`{{execute}}
 
